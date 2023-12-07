@@ -101,7 +101,17 @@ c.getLocation().getFile().getRelativePath().regexpMatch("2/challenge-1/.*")
 select c
 ```
 
-class则可以参考freebuf下的[案例](https://www.freebuf.com/articles/web/283795.html) （后续的flow的写法均可参照这个框架）：
+class的概念就是codeql允许你用它去定义新的`<Type>`。基本结构如下
+
+```
+
+class <name> extends <type> {
+  <characteristic predicate>() {
+  }
+}
+```
+这里特征谓词的名字要和class的名字一致
+FLow可以参考freebuf下的[案例](https://www.freebuf.com/articles/web/283795.html) （后续的flow的写法均可参照这个框架）：
 
 DataFlow::Node node 代表从sourc到sink的一个节点。具体看freebuf的那张图。
 
