@@ -256,6 +256,8 @@ select call.getArgument(), "FileReader"
 
 ~~学到这里的感触：啊啊啊啊啊怎么java需要学的这么多啊草~~
 
+
+
 ## 还原Lombok代码
 [github](https://github.com/github/codeql/issues/4984)上的最新进度是已经可以支持lombok了。另外如果你是旧版，除了本文后参考的文章（如果遇到实际尝试会遇到java版本不支持的情况。）也可以试上述[github](https://github.com/github/codeql/issues/4984)上给出的解决方案，是用delombok。
 但建议还是使用新版codeql !
@@ -303,8 +305,9 @@ public Object evaluate(Socket socket) throws IOException {
 }
 ```
 
-## 本项目未来todo
+## 本项目其他/未来todo
 - 创建一个cheatsheet单独的文件
+- 个人作业向：写Codeql通用漏洞脚本（进行）
 
 ## Reference&Resource
 
