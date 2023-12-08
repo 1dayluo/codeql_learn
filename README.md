@@ -320,3 +320,6 @@ public Object evaluate(Socket socket) throws IOException {
 
 - 关于Lombok不支持ql查询的解决方法：[https://tttang.com/archive/1497/#toc__2](https://tttang.com/archive/1497/#toc__2)
 - git上别人整理的学习资源：[https://github.com/safe6Sec/CodeqlNote](https://github.com/safe6Sec/CodeqlNote)
+
+自动化：
+- qwq 推荐推荐 tql[CodeQLpy](https://github.com/webraybtl/CodeQLpy/tree/master)
